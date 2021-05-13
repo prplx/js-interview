@@ -1,0 +1,29 @@
+{
+  "name": "js-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binarySearch.js",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "test-watch": "node --experimental-vm-modules node_modules/.bin/jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prplx/js-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prplx/js-interview/issues"
+  },
+  "homepage": "https://github.com/prplx/js-interview#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
