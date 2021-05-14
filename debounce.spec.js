@@ -1,8 +1,6 @@
 import { jest } from '@jest/globals';
 import { debounce } from './debounce';
-
-const sleep = async timeout =>
-  new Promise(resolve => setTimeout(resolve, timeout));
+import { sleep } from './index';
 
 describe('debounce', () => {
   const fn = jest.fn();
